@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Liste de groupe</title>
+  </head>
+  <body>
+    <div id="container">
+      <div id="header">
+        <h1>Générateur d'équipe aléatoire</h1>
+      </div>
+      <div>
+        <form action="">
+          <div>
+            <br />
+            <h3>Saissez les participants</h3>
+            <span>
+              <textarea name="name_list" cols="50" rows="8" required id="entreListe" placeholder="Bonjour, Saissez les noms participants...."></textarea>
+            </span>
+          </div>
+          <div>
+            <h4>Définir le nombre des groupes</h4>
+            <input type="number" min="1" />
+          </div>
+          <br />
+          <button id="addBtn" onclick="addTask()" type="submit">
+            Générer les équipes
+          </button>
+        </form>
+      </div>
+
+      <h2>Générateur de groupes aléatoires</h2>
+
+      <ul id="lists">
+
+      </ul>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

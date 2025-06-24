@@ -1,0 +1,22 @@
+body{
+    text-align: center;
+}
+
+#container{
+    border: 25px solid blue;
+    background-color: aliceblue;
+    width: 40%;
+    margin-left: 25%;
+    padding: 2%;
+    margin-top: 5%;
+}
+
+button{
+    background-color: blue;
+    border: none;
+    color: aliceblue;
+    padding: 1%;
+    padding-left: 10%;
+    padding-right: 10%;
+    border-radius: 10px;
+}
